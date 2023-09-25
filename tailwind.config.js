@@ -6,6 +6,9 @@ export default {
       colors: {
         "main-1": "#11151C",
       },
+      fontSize: {
+        xxs: ["0.5rem", "1rem"],
+      },
     },
   },
   plugins: [],

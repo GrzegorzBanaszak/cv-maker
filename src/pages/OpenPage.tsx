@@ -1,11 +1,12 @@
 import React from "react";
 import OpenMain from "../components/Open/OpenMain";
+import OpenCv from "../components/Open/OpenCv";
 
 const OpenPage: React.FunctionComponent = () => {
   return (
-    <section className="h-screen overflow-hidden">
+    <section className="h-screen overflow-hidden flex">
       <OpenMain />
-      <section className="bg-white  w-1/2"></section>
+      <OpenCv />
     </section>
   );
 };
