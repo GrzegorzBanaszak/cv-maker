@@ -1,10 +1,12 @@
 import React from "react";
 import logo from "../../assets/logo.jpg";
 import { Link } from "react-router-dom";
+import Navbar from "../Navbar";
 
 const OpenMain: React.FunctionComponent = () => {
   return (
     <section className="bg-main-1 w-1/2 h-full relative">
+      <Navbar />
       <div className=" h-full flex flex-col text-white justify-center items-center">
         <img className="rounded-3xl" src={logo} />
         <h1 className="uppercase font-semibold py-6 w-1/2 text-4xl text-center leading-snug border-b-4">
