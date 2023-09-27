@@ -1,14 +1,16 @@
 import React from "react";
 import "../../styles/OpenCv.css";
 import photo from "../../assets/cv-photo.jpg";
+import CvExampleLeft from "./CvExampleLeft";
+import CvExamlpeRight from "./CvExamlpeRight";
 
 const OpenCv: React.FunctionComponent = () => {
   return (
     <section className="bg-white  w-1/2">
       <div className="h-full flex justify-center items-center">
-        <div className="open-cv flex gap-1">
+        <div className="open-cv flex gap-2">
           <div className="w-1/3 h-full flex flex-col gap-2">
-            <div className="border-2 row-span-2 bg-blue-950 text-white grow">
+            <CvExampleLeft>
               <img
                 src={photo}
                 alt="Photo by Jurica Koletić on Unsplash"
@@ -16,8 +18,8 @@ const OpenCv: React.FunctionComponent = () => {
               />
               <h5 className="text-center mt-4 font-semibold">Jan Kowalski</h5>
               <p className="text-center text-xs">Junior Javascript</p>
-            </div>
-            <div className="border-2 row-span-2 bg-blue-950 text-white p-2 grow">
+            </CvExampleLeft>
+            <CvExampleLeft>
               <h6 className="text-center text-xs border-b-2 border-white pb-2">
                 Kontakt
               </h6>
@@ -29,8 +31,8 @@ const OpenCv: React.FunctionComponent = () => {
                 <li>www.linkedin.com/in/jankowalski</li>
                 <li>www.github.com/jankowalski</li>
               </ul>
-            </div>
-            <div className="border-2 row-span-3  bg-blue-950 text-white p-2 grow">
+            </CvExampleLeft>
+            <CvExampleLeft>
               <h6 className="text-center text-xs border-b-2 border-white pb-2">
                 Umiejętności
               </h6>
@@ -40,26 +42,26 @@ const OpenCv: React.FunctionComponent = () => {
                 Debugowanie, Tworzenie Responsywnych Interfejsów Użytkownika,
                 Komunikatywność i Umiejętność Pracy w Zespole
               </p>
-            </div>
+            </CvExampleLeft>
           </div>
           <div className="w-2/3 h-full flex flex-col gap-2">
-            <div className="border-2 col-span-2 py-1 px-3 shrink">
+            <CvExamlpeRight>
               <h4 className="border-l-4 border-blue-400 text-sm mt-1 pl-2 font-semibold">
                 O Mnie
               </h4>
-              <article className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
+              <p className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
                 Jestem młodym, ambitnym programistą JavaScript z pasją do
                 tworzenia nowoczesnych aplikacji webowych. Moim celem zawodowym
                 jest rozwijanie się w dziedzinie Front-End Developmentu i
                 tworzenie wysokiej jakości oprogramowania, które dostarcza
                 wartość użytkownikom.
-              </article>
-            </div>
-            <div className="border-2 col-span-2 py-1 px-3 grow">
+              </p>
+            </CvExamlpeRight>
+            <CvExamlpeRight>
               <h4 className="border-l-4 border-blue-400 text-sm mt-1 pl-2 font-semibold">
                 Wykształcenie
               </h4>
-              <article className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
+              <div className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
                 <ul>
                   <li>
                     <b>Tytuł: Inżynier Informatyki</b>
@@ -67,8 +69,8 @@ const OpenCv: React.FunctionComponent = () => {
                   <li>Uczelnia: Politechnika Warszawska </li>
                   <li>Okres: Wrzesień 2019 - Czerwiec 2023</li>
                 </ul>
-              </article>
-              <article className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
+              </div>
+              <div className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
                 <ul>
                   <li>
                     <b>Tytuł: Technik Informatyk</b>
@@ -78,14 +80,14 @@ const OpenCv: React.FunctionComponent = () => {
                   </li>
                   <li>Okres: Wrzesień 2015 - Czerwiec 2019</li>
                 </ul>
-              </article>
-            </div>
+              </div>
+            </CvExamlpeRight>
 
-            <div className="border-2 row-span-2 col-span-2 grow py-1 px-3">
+            <CvExamlpeRight>
               <h4 className="border-l-4 border-blue-400 text-sm mt-1 pl-2 font-semibold">
                 Doświadczenie
               </h4>
-              <article className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
+              <div className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
                 <ul>
                   <li>
                     <b>Stażysta Front-End Developer</b>
@@ -100,8 +102,8 @@ const OpenCv: React.FunctionComponent = () => {
                   kodzieWspółpraca z zespołem programistycznym przy
                   projektowaniu i wdrażaniu aplikacji
                 </div>
-              </article>
-              <article className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
+              </div>
+              <div className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
                 <ul>
                   <li>
                     <b>Praktykant JavaScript Developer</b>
@@ -116,14 +118,14 @@ const OpenCv: React.FunctionComponent = () => {
                   aplikacjiUczestnictwo w codziennych spotkaniach zespołu w
                   metodyce Agile
                 </div>
-              </article>
-            </div>
+              </div>
+            </CvExamlpeRight>
 
-            <div className="border-2 col-span-2 row-span-2 grow py-1 px-3">
+            <CvExamlpeRight>
               <h4 className="border-l-4 border-blue-400 text-sm mt-1 pl-2 font-semibold">
                 Doświadczenie zawodowe
               </h4>
-              <article className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
+              <div className=" border-l-4 border-blue-400 pl-2 mt-2 text-xxs leading-normal">
                 <div>
                   1. Portfolio Osobiste (GitHub:
                   www.github.com/jankowalski/portfolio)
@@ -133,8 +135,8 @@ const OpenCv: React.FunctionComponent = () => {
                   doświadczenie i projekty - Zaimplementowana przy użyciu
                   React.js i stylowana za pomocą CSS
                 </div>
-              </article>
-            </div>
+              </div>
+            </CvExamlpeRight>
           </div>
         </div>
       </div>
