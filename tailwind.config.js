@@ -5,9 +5,13 @@ export default {
     extend: {
       colors: {
         "main-1": "#11151C",
+        "nav-primary": "#2F4550",
       },
       fontSize: {
         xxs: ["0.5rem", "1rem"],
+      },
+      maxWidth: {
+        container: "1440px",
       },
     },
   },

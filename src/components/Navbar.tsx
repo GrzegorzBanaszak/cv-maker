@@ -8,6 +8,8 @@ const Navbar: React.FunctionComponent = () => {
   useEffect(() => {
     if (location.pathname === "/") {
       setNavType("flex gap-4 text-gray-400 text-xl mt-5 ml-8");
+    } else {
+      setNavType("flex gap-4 text-gray-400 text-xl py-5 px-8 bg-nav-primary");
     }
   }, [location.pathname]);
   return (
