@@ -15,3 +15,8 @@ body {
   right: -2rem;
   transform: rotate(3deg);
 }
+
+.a4-size {
+  width: 27.875rem;
+  height: 39.438rem;
+}
