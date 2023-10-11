@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "main-1": "#11151C",
+        "main-2": "#586F7C",
         "nav-primary": "#2F4550",
       },
       fontSize: {
