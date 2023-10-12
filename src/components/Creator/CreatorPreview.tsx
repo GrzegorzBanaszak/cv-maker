@@ -5,9 +5,11 @@ const CreatorPreview: React.FunctionComponent = () => {
   const ref = useRef<HTMLDivElement>(null);
 
   return (
-    <div ref={ref} className="a4-size bg-white">
-      <Type1 />
-    </div>
+    <section className="w-1/2 flex justify-center items-center">
+      <div ref={ref} className="a4-size bg-white">
+        <Type1 />
+      </div>
+    </section>
   );
 };
 
