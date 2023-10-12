@@ -31,6 +31,10 @@ const PatternsPage: React.FunctionComponent = () => {
             clickHandler={() => selectExample("typ-2")}
             url="ex-cv-1"
           />
+          <PatternCard
+            clickHandler={() => selectExample("typ-3")}
+            url="ex-cv-1"
+          />
         </section>
       </main>
     </>
