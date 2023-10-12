@@ -3,10 +3,10 @@ import SideSelect from "./components/SideSelect";
 
 const CreatorMain: React.FunctionComponent = () => {
   return (
-    <div className="w-1/2 bg-white p-3">
+    <div className="w-1/2 bg-white px-4 pt-6">
       <div className="flex justify-between">
-        <SideSelect />
         <SidePagination />
+        <SideSelect />
       </div>
     </div>
   );
