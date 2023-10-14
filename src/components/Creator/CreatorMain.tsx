@@ -1,4 +1,5 @@
 import AboutGroup from "./components/AboutGroup";
+import ManyFildsGroup from "./components/ManyFildsGroup";
 import SidePagination from "./components/SidePagination";
 import SideSelect from "./components/SideSelect";
 
@@ -11,6 +12,7 @@ const CreatorMain: React.FunctionComponent = () => {
       </div>
       <div>
         <AboutGroup />
+        <ManyFildsGroup />
       </div>
     </div>
   );
