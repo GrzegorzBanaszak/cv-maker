@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import RemoveIcon from "../../../icons/RemoveIcon";
 
-const AboutGroup: FunctionComponent = () => {
+const CreatorSimpeInput: FunctionComponent = () => {
   return (
     <div>
       <h2 className="mt-7 pb-2 text-3xl border-b-2 border-gray-200 flex justify-between items-center">
@@ -13,4 +13,4 @@ const AboutGroup: FunctionComponent = () => {
   );
 };
 
-export default AboutGroup;
+export default CreatorSimpeInput;

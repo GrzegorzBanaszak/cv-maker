@@ -1,6 +1,6 @@
-import AboutGroup from "./components/AboutGroup";
-import InputWithDescription from "./components/InputWithDescription";
-import ManyFildsGroup from "./components/ManyFildsGroup";
+import CreatorSimpeInput from "./components/CreatorSimpeInput";
+import CreataGroupDescriptionInput from "./components/CreataGroupDescriptionInput";
+import CreateGroupInput from "./components/CreateGroupInput";
 import SidePagination from "./components/SidePagination";
 import SideSelect from "./components/SideSelect";
 
@@ -12,10 +12,10 @@ const CreatorMain: React.FunctionComponent = () => {
         <SideSelect />
       </div>
       <div>
-        <AboutGroup />
-        <ManyFildsGroup />
-        <InputWithDescription />
-        <InputWithDescription />
+        <CreatorSimpeInput />
+        <CreateGroupInput />
+        <CreataGroupDescriptionInput />
+        <CreataGroupDescriptionInput />
       </div>
     </div>
   );

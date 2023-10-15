@@ -3,7 +3,7 @@ import RemoveIcon from "../../../icons/RemoveIcon";
 import { motion } from "framer-motion";
 import AddIcon from "../../../icons/AddIcon";
 
-const InputWithDescription: FunctionComponent = () => {
+const CreataGroupDescriptionInput: FunctionComponent = () => {
   const [isHover, setIsHover] = useState(false);
   return (
     <div>
@@ -35,4 +35,4 @@ const InputWithDescription: FunctionComponent = () => {
   );
 };
 
-export default InputWithDescription;
+export default CreataGroupDescriptionInput;
